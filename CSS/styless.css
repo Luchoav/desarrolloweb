@@ -119,8 +119,10 @@ ul{
 #boton{
 
     
-    margin-left: 80%;
-    margin-bottom: 5%;
+    margin-left: 68%;
+    margin-right: 14%;
+    margin-bottom: 1%;
+    padding-right: 2%;
     font-family: 'Outfit', sans-serif;
     
 
@@ -167,13 +169,13 @@ ul{
 
 .cuestionario{
 
-    padding-left: 50%;
+    padding-left: 40%;
     padding-right: 0%;
     padding-top: 9%;
    
     display: grid;
-    grid-template-columns: 20px 20px 0px 1px
-                           20px 20px 20px 20px;
+    grid-template-columns: 30px 30px 0px 7px
+                           17px 18px 20px 20px;
     grid-row-gap: 5px;
     grid-template-areas: "a1 a2 a3 a0" 
                          "a4 a5 a6 a7";
@@ -186,7 +188,7 @@ ul{
 }
 
 #caja-3{
-    width: 110px;
+    width: 144px;
 }
 .caja-3{
   grid-area: a3;
