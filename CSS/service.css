@@ -1,0 +1,169 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+.link-menu{
+
+    text-decoration: none;  
+    color: azure;
+
+    
+  
+   
+
+    
+
+}
+
+.nombre{
+
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Outfit', sans-serif; 
+    margin-right:
+     55%;
+    display: flex;
+    color: black;
+
+}
+
+ul{
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    
+    
+
+}
+
+.navbar{
+   
+    background-color: #5CB8F7;
+
+
+    
+}
+
+.lista{
+
+    display: flex;
+   flex-direction: row-reverse;
+   padding-right: 1%;
+   
+ 
+
+}
+
+#opciones ul li a:hover{
+
+    background-color: white;
+    color: black;
+
+}
+
+
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Outfit', sans-serif;
+    background-color: #637ABB;
+    padding: 3%;
+    margin-top: 2%;
+   
+}
+
+.direccion{
+
+width: 300px;
+height: 300px;
+
+}
+
+.horario p{
+
+    color: azure;
+    width: 50%;
+
+
+}
+
+.link{
+
+    list-style-type: none;
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+   
+
+}
+
+.link-footer  li a:hover{
+
+    color: black;
+
+
+
+    
+
+}
+
+.titulo{
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+
+
+}
+
+.titulo-service{
+
+    margin-left: 15%;
+}
+
+
+.texto-service{
+    margin-left: 20%;
+    margin-right:20% ;
+    font-size: 20PX ;
+    font-family: cursive;
+    margin-top: 7%;
+
+    margin-bottom: 10%;
+
+
+
+}
+
+.boton-wp{
+
+    display: flex;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    flex-direction: column;
+    
+    
+
+}
+
+#logowp{
+
+margin-left: 5%;
+
+width: 5%;
+
+}
+
+.call a{
+
+    text-decoration: none;
+    color: black;
+    margin-left: 1%;
+  
+
+
+}

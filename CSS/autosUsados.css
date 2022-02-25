@@ -1,0 +1,203 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+.link-menu{
+
+    text-decoration: none;  
+    color: azure;
+
+    
+  
+   
+
+    
+
+}
+
+.nombre{
+
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Outfit', sans-serif; 
+    margin-right:
+     55%;
+    display: flex;
+    color: black;
+
+}
+
+ul{
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    
+    
+
+}
+
+.navbar{
+   
+    background-color: #5CB8F7;
+
+
+    
+}
+
+.lista{
+
+    display: flex;
+   flex-direction: row-reverse;
+   padding-right: 1%;
+   
+ 
+
+}
+
+#opciones ul li a:hover{
+
+    background-color: white;
+    color: black;
+
+}
+
+
+.modelos{
+
+    font-family: 'Outfit', sans-serif;
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+
+.cards{
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    margin-left: 120px;
+    margin-right: 50px;
+    margin-bottom: 0%;
+    padding-bottom: 8%;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    position: relative;
+    top: -470px; 
+    left: 120px;
+
+
+    
+   
+
+}
+
+#imagen{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 3%;
+}
+
+.card-1{
+
+    margin-top: 5%;
+    border: solid 1px rgb(82, 81, 81);
+    border-radius: 3%;
+
+}
+
+.titulo-card a{
+
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.titulo-card{
+
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+
+}
+
+.opciones{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 5%;
+    width: 10%;
+    border: solid 1px black;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    border-radius: 5%;
+
+}
+
+#btn-filtrar{
+
+    padding-top: 10px;
+}
+
+.tipo{
+
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+
+
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Outfit', sans-serif;
+    background-color: #637ABB;
+    padding: 3%;
+    margin-top: 2%;
+   
+}
+
+.direccion{
+
+width: 300px;
+height: 300px;
+
+}
+
+.horario p{
+
+    color: azure;
+    width: 50%;
+
+
+}
+
+.link{
+
+    list-style-type: none;
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+   
+
+}
+
+.link-footer  li a:hover{
+
+    color: black;
+
+
+
+    
+
+}
