@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>AutoVip</title>
 
 
@@ -24,7 +25,7 @@
     <!--menu-->
     <header>
 
-        <div class="navbar navbar-dark bg-primary">
+        <div class="navbar navbar-dark bg-primary" id="grid">
 
             <a class="nombre" href="../index.html">
                 <h2>Auto Vip</h2>
@@ -69,31 +70,31 @@
         <!--contenido-->
 
         <section id="contenidos">
-            <div class="container">
 
 
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../primerRepo/img/cq5dam.resized.img.1680.large.time1621331708368.jpg"
-                                class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../primerRepo/img/galeria_1_gle-min.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../primerRepo/img/cq5dam.resized.img.1680.large.time1621331710079.jpg"
-                                class="d-block w-100" alt="...">
-                        </div>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../primerRepo/img/cq5dam.resized.img.1680.large.time1621331708368.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../primerRepo/img/galeria_1_gle-min.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../primerRepo/img/cq5dam.resized.img.1680.large.time1621331710079.jpg"
+                            class="d-block w-100" alt="...">
                     </div>
                 </div>
             </div>
 
 
+
             <div class="container">
                 <div class="cards">
 
-                    <div class="card-1">
+                    <div class="card-1 animate__pulse">
                         <img class="img-cards" src="../primerRepo/img/cq5dam.resized.img.585.low.time1537523762370.jpg"
                             alt="">
 
@@ -150,12 +151,13 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div>
                 <div class="box">
                     <h1 class="titulo-box">¿Listo para buscar tu nuevo auto?</h1>
                     <div class="box-serch">
 
-                        <div class="cuestionario">
+                        <div class="cuestionario container">
+
 
                             <div class="caja-1">
                                 <form action="">
@@ -236,9 +238,14 @@
                                 </form>
                             </div>
 
+
                         </div>
 
-                        <button type="button" class="btn btn-info btn-sm" id="boton">Buscar</button>
+
+                        <div class="boton-buscar">
+                            <button type="button" class="btn btn-info btn-sm" id="boton">Buscar</button>
+                        </div>
+
                     </div>
 
                 </div>
@@ -248,7 +255,7 @@
     </main>
 
 
-    <footer>
+    <footer id="grid">
         <!--fin-->
 
         <div class="container">
