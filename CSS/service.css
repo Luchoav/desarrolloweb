@@ -139,14 +139,21 @@ height: 300px;
 
 }
 
-.boton-wp{
+#boton-wp{
 
+    
     display: flex;
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
     flex-direction: column;
     
     
+
+}
+
+#boton-wp:hover{
+
+    transform: scale(1.2);
 
 }
 
