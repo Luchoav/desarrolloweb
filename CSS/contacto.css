@@ -120,10 +120,7 @@ height: 300px;
 
 .formulario-de-contacto{
 
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+   
     width: 30%;
     height: 100%;
     margin-left: 35%;
@@ -134,10 +131,13 @@ height: 300px;
 }
 
 .cuestionario{
+    display: grid;
+    grid-template-columns: 200px;
     margin-bottom:3%;
-   align-items: center;
+    align-items: center;
     justify-content: space-between;
-    padding-left: 20%;
+    justify-content: center;
+    
    
 
 }
@@ -182,11 +182,18 @@ margin-top: 2%;
 }
 
 .boton{
-
+    
     margin-right: 5%;
     margin-top:  3%;
  
 
+}
+
+.boton:hover{
+
+    background-color: #94ebc7;
+    color: black;
+    transform: scale(1.05);
 }
 
 .historia{
