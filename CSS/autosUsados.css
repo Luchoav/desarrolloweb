@@ -87,6 +87,7 @@ ul{
     margin-left: 120px;
     margin-right: 50px;
     margin-bottom: 0%;
+    margin-top: 5%;
     padding-bottom: 8%;
     flex-wrap: wrap;
     border: solid 1px black;
@@ -131,17 +132,12 @@ ul{
 }
 
 .opciones{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    margin-left: 5%;
-    width: 10%;
+    align-content: center;
     border: solid 1px black;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 1%;
+    margin-top: 8%;
     border-radius: 5%;
 
 }
