@@ -100,7 +100,8 @@ body {
 .cuestionario {
   display: grid;
   grid-row-gap: 2px;
-  grid-template-areas: "a1 a2 a3 a0"  "a4 a5 a6 a7";
+  grid-template-areas: "a1 a2 a3 a0" 
+ "a4 a5 a6 a7";
   grid-column-gap: 10px;
   justify-content: center;
   align-items: center; }

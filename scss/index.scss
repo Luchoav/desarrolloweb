@@ -10,9 +10,15 @@ $colordeletrasmenu: black;
 $colordehovermenu:rgb(0, 0, 0);
 $colordehovermenu2: black;
 $colordeltitulo:black;
+$colormobile:black;
+$colordesktop:rgb(233, 34, 34);
 
 
 .navbar{
+
+
+    
+
    
     .link-menu{
 
@@ -150,35 +156,9 @@ $colordebordecard:black;
 
     }
 
-    @if $vista == desktop {
-        @media only screen and (min-width:1024px){
-            .cards { width: auto; height: auto;}
-            h2{font-size:26px; color: red;}
-            p{font-size:16px;}
-            
-        }
-
-        } @else if $vista == mobile {
-            @media only screen and (max-width:767px){
-              .cards { width: 50%; height: 50%;}
-              h2{font-size:20px; color: #2980B9;}
-              p{font-size:10px;}
-            }
-        } @else {
-            h1{font-size:34px;}
-            p{font-size:20px;}
-        }
-    }
-    
-
- 
-
-    
-
 }
 
 
-$vista:mobile;
 
 
 
