@@ -81,7 +81,7 @@ body {
     font-family: 'Outfit', sans-serif; }
   .box .box-serch {
     border: solid 1px black;
-    background-color: #A5BBE6;
+    background-color: #bfe6ff;
     width: 700px;
     height: 200px;
     margin-left: 25%;
@@ -126,20 +126,16 @@ footer {
   padding: 3%;
   margin-top: 2%;
   color: black; }
-
-.direccion {
-  width: 300px;
-  height: 300px; }
-
-.horario p {
-  width: 50%; }
-
-.link {
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  font-size: 20px; }
-
-.link-footer li a:hover {
-  color: grey; }
+  footer .direccion {
+    width: 300px;
+    height: 300px; }
+  footer .horario p {
+    width: 50%; }
+  footer .link {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 20px; }
+  footer .link-footer li a:hover {
+    color: grey; }

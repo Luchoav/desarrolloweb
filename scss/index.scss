@@ -144,7 +144,8 @@ $colordebordecard:black;
 
 
 
-
+$colorfondo: #94ebc7;
+$colorletras: black;
 
 #boton {
 
@@ -158,8 +159,8 @@ $colordebordecard:black;
 
     &:hover {
 
-        background-color: #94ebc7;
-        color: black;
+        background-color: $colorfondo;
+        color:$colorletras;
         transform: scale(1.2);
 
     }
@@ -168,7 +169,8 @@ $colordebordecard:black;
 }
 
 
-
+$backgroundcolor:#bfe6ff;
+$bordes:solid 1px black;
 
 .box {
 
@@ -185,8 +187,8 @@ $colordebordecard:black;
 
     .box-serch {
 
-        border: solid 1px black;
-        background-color: #A5BBE6;
+        border: $bordes;
+        background-color: $backgroundcolor;
         width: 700px;
         height: 200px;
         margin-left: 25%;
@@ -262,6 +264,9 @@ $colordebordecard:black;
 }
 
 
+$colorhoverfooter:grey;
+
+
 footer {
 
     display: flex;
@@ -269,42 +274,41 @@ footer {
     font-family: 'Outfit', sans-serif;
     padding: 3%;
     margin-top: 2%;
-    color: black;
+    color: $colorletras;
 
-}
+    .direccion {
 
-.direccion {
+        width: 300px;
+        height: 300px;
+    
+    }
 
-    width: 300px;
-    height: 300px;
-
-}
-
-.horario p {
-
-
-    width: 50%;
+    
+    .horario p {
 
 
-}
-
-.link {
-
-    list-style-type: none;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    font-size: 20px;
+        width: 50%;
 
 
-}
+    }   
 
-.link-footer li a:hover {
+    .link {
 
-    color: grey;
+        list-style-type: none;
+        text-decoration: none;
+        color: $colorletras;
+        text-align: center;
+        font-size: 20px;
+        
+    
+    
+    }
+    
+    .link-footer li a:hover {
 
-
-
+        color: $colorhoverfooter;
+    
+    }
 
 
 }
